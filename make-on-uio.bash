@@ -1,16 +1,5 @@
 #!/bin/bash
 
-#####################################
-#Example make file                  #  
-#####################################
-#                                   #
-#                                   #  
-# main: main.c                      #   
-# 	gcc -o main main.c              # 
-# run: main                         # 
-# 	./main                          # 
-#                                   # 
-######################################
 
 ## Replace with UIO username
 username="eiriktaa"
