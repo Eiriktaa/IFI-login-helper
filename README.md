@@ -17,7 +17,7 @@ Du er nå inne på IFI maskinen.
 
 Skriv exit i terminalen for å slutte sesjonen.
 
-##¤ Make UIO
+### Make UIO
 Program som henter alle C filer og makefiler, sender dem til UIO maskinene for å kompilere
 
 ##### Bruk som script:
