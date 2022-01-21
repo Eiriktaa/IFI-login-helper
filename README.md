@@ -11,6 +11,9 @@ cd IFI-login-helper && bash ssh-keys-to-ifi.bash dittnavn
 
 ```
 Trykk 2 ganger på enter for å legge til en nøkkel.
+
+Skriv inn passord for å bekrefte at det er du som legger inn nøkkel.
+
 Trykk 1 gang på enter for å bekrefte fingerprint
 
 Du er nå inne på IFI maskinen.
@@ -39,4 +42,4 @@ Flytt makeuio inn i ~/bin
 ```
 chmod u+x makeuio
 ```
-Du kan nå skrive makeuio i terminalen så sender den  c/make filer til uio og bygger
+Du kan nå skrive makeuio i terminalen så sender den  c/make filer til uio og bygger filene.
