@@ -6,8 +6,8 @@ Brukes ved å kjøre de 3 kommandoen under i rekkefølge.
 
 "Erstatt dittnavn i linje 2, med UIO brukernavn"
 ```
-git clone https://github.com/eiriktaa/IFI-login-helper 
-cd IFI-login-helper && sed -i -e 's/USERNAME/dittnavn/g' ssh-keys-to-ifi.bash
+git clone https://github.com/Eiriktaa/IFI-login-helper 
+cd IFI-login-helper && sed -i -e 's/eiriktaa/dittnavn/g' ssh-keys-to-ifi.bash
 bash ssh-keys-to-ifi.bash
 ```
 Trykk 2 ganger på enter for å legge til en nøkkel.
