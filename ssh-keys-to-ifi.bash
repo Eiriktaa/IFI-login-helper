@@ -4,7 +4,7 @@
 # to run: bash ssh-keys-to-ifi.bash
 
 #Replace with your UIO username
-username="eiriktaa"
+username=$1
 mkdir ~/.ssh
 cd ~/.ssh
 
