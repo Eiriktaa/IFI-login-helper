@@ -25,7 +25,7 @@ Program som henter alle C filer og makefiler, sender dem til UIO maskinene for Ã
 
 ##### Bruk som script:
 
-Legg makeuio scriptet inn i mappen du jobber og bruk ./makeuio argument
+Legg makeuio scriptet inn i mappen du jobber og bruk: bash makeuio argument
 
 Argument er til makefilen, "run/clean/valgrind"
 
