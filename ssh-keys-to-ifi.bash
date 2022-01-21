@@ -14,7 +14,7 @@ ssh-copy-id -i ./ifi-login.pub ${username}@login.ifi.uio.no
 
 #Adds the key to the ssh-agent 
 eval `ssh-agent`
-ssh-add ./ifi-login
+ssh-add ~/.ssh/ifi-login
 
 #tests connection
 ssh ${username}@login.ifi.uio.no
