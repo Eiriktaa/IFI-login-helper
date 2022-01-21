@@ -20,6 +20,8 @@ Du er nå inne på IFI maskinen.
 
 Skriv exit i terminalen for å slutte sesjonen.
 
+Restart terminalen og prøv: ssh brukernavn@login.ifi.uio.no
+
 ### Make UIO
 Program som henter alle C filer og makefiler, sender dem til UIO maskinene for å kompilere
 
