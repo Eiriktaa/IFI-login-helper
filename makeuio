@@ -1,6 +1,4 @@
 #!/bin/bash
-
-
 ## Replace with UIO username
 username="eiriktaa"
 

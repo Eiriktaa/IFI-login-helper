@@ -11,8 +11,37 @@ cd IFI-login-helper && bash ssh-keys-to-ifi.bash dittnavn
 
 ```
 Trykk 2 ganger på enter for å legge til en nøkkel.
+
+Skriv inn passord for å bekrefte at det er du som legger inn nøkkel.
+
 Trykk 1 gang på enter for å bekrefte fingerprint
 
 Du er nå inne på IFI maskinen.
 
 Skriv exit i terminalen for å slutte sesjonen.
+
+Restart terminalen og prøv: ssh brukernavn@login.ifi.uio.no
+
+### Make UIO
+Program som henter alle C filer og makefiler, sender dem til UIO maskinene for å kompilere
+
+##### Bruk som script:
+
+Legg makeuio scriptet inn i mappen du jobber og bruk: bash makeuio argument
+
+Argument er til makefilen, "run/clean/valgrind"
+
+##### Bruk som standalone
+
+Opprett mappen ~/bin
+
+Rediger .bashrc og legg inn følgende i filen.
+```
+export PATH=$PATH:~/bin
+```
+Flytt makeuio inn i ~/bin
+
+```
+chmod u+x makeuio
+```
+Du kan nå skrive makeuio i terminalen så sender den  c/make filer til uio og bygger filene.
