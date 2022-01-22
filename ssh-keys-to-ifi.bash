@@ -18,7 +18,6 @@ echo "   HostName login.ifi.uio.no" >> ~/.ssh/config
 echo "   User $username" >> ~/.ssh/config
 echo "   IdentityFile ~/.ssh/ifi-login" >> ~/.ssh/config
 echo "   " >> ~/.ssh/config
-=======
 
 #tests connection
 ssh ${username}@login.ifi.uio.no
