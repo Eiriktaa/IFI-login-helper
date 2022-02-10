@@ -7,7 +7,7 @@ username="eiriktaa"
 makefolder="c"
 
 # Sends all .C files and makefile to UIO machine
-scp *.c makefile $username@login.ifi.uio.no:~/$makefolder/
+scp *.c *.h makefile $username@login.ifi.uio.no:~/$makefolder/
 
 # Starts the command to make and runs the C program on UIO machine
 echo $1
